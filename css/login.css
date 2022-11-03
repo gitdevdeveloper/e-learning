@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit';
+}
+
+
+
+section.login {
+    background-image: url("../images/bglogin.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.grid-login {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 274px 0;
+}
+
+.box {
+    color: #fff;
+    margin: auto;
+}
+
+.grid-login .box-login {
+    background: #fff;
+    padding: 50px;
+    margin: 0 50px;
+    border-radius: 10px;
+}
+
+.grid-login .box-login h3 {
+    color: black;
+    border-bottom: 3px solid rgb(255, 187, 0);
+    margin: 5px 0;
+    padding: 5px 0;
+}
+
+.btnn {
+    text-align: right;
+}
+
+@media(max-width:480px){
+    section.login {
+    background-image: url("../images/bglogin.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 680px;
+}
+
+.grid-login {
+    display: block;
+    padding: 100px 0;
+}
+
+}
+
